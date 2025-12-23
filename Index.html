@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kakuma Opportunities</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      color: #333;
+    }
+    header {
+      background: #0a7cff;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: space-around;
+      background: #ffffff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    nav button {
+      flex: 1;
+      padding: 12px;
+      border: none;
+      background: none;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    nav button:hover {
+      background: #e6f0ff;
+    }
+    section {
+      display: none;
+      padding: 15px;
+    }
+    section.active {
+      display: block;
+    }
+    .card {
+      background: white;
+      padding: 15px;
+      margin-bottom: 12px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .card a {
+      display: inline-block;
+      margin-top: 8px;
+      color: #0a7cff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      font-size: 12px;
+      padding: 10px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h2>Kakuma Opportunities</h2>
+  <p>Jobs • Scholarships • Training • Digital Work</p>
+</header>
+
+<nav>
+  <button onclick="showSection('jobs')">Jobs</button>
+  <button onclick="showSection('scholarships')">Scholarships</button>
+  <button onclick="showSection('training')">Training</button>
+  <button onclick="showSection('digital')">Digital Work</button>
+</nav>
+
+<!-- JOBS -->
+<section id="jobs" class="active">
+  <div class="card">
+    <h3>Fursa Kenya – Jobs</h3>
+    <p>Latest jobs and internships in Kenya.</p>
+    <a href="https://fursakenya.com/" target="_blank">Browse Jobs on Fursa Kenya</a>
+  </div>
+  <div class="card">
+    <h3>UNHCR Careers</h3>
+    <p>Jobs with the UN Refugee Agency.</p>
+    <a href="https://www.unhcr.org/careers.html" target="_blank">Visit UNHCR Careers</a>
+  </div>
+  <div class="card">
+    <h3>BrighterMonday</h3>
+    <p>Kenya job listings & recruitment portal.</p>
+    <a href="https://www.brightermonday.co.ke" target="_blank">Visit BrighterMonday</a>
+  </div>
+</section>
+
+<!-- SCHOLARSHIPS -->
+<section id="scholarships">
+  <div class="card">
+    <h3>KMTC & UNHCR Scholarships</h3>
+    <p>Scholarship programs for Turkana residents & refugees (e.g., Community Health Nursing).</p>
+    <a href="https://admissions.kmtc.ac.ke" target="_blank">Apply at KMTC Admissions</a>
+  </div>
+  <div class="card">
+    <h3>UNHCR Scholarship Listings</h3>
+    <p>Find verified scholarship opportunities for refugees and host community applicants.</p>
+    <a href="https://services.unhcr.org/opportunities/" target="_blank">View UNHCR Opportunities</a>
+  </div>
+  <div class="card">
+    <h3>Fursa Kenya – Scholarships</h3>
+    <p>Scholarships and bursaries for Kenyans.</p>
+    <a href="https://fursakenya.com/" target="_blank">View Fursa Kenya</a>
+  </div>
+  <div class="card">
+    <h3>Learning Lions Scholarship (Grade 10)</h3>
+    <p>Scholarship programs for talented Grade 10 students in Kakuma.</p>
+    <a href="https://learninglions.org/scholarships" target="_blank">View Learning Lions Scholarship</a>
+  </div>
+</section>
+
+<!-- TRAINING -->
+<section id="training">
+  <div class="card">
+    <h3>Turkana Youth Technical Hub</h3>
+    <p>Technical & vocational training programs for youth in Turkana.</p>
+    <a href="https://turkanatechyouthshub.com/programs.html" target="_blank">View Programs</a>
+  </div>
+  <div class="card">
+    <h3>LinkedIn Learning</h3>
+    <p>Professional courses on various subjects.</p>
+    <a href="https://www.linkedin.com/learning/" target="_blank">Visit LinkedIn Learning</a>
+  </div>
+  <div class="card">
+    <h3>Coursera (Global Training)</h3>
+    <p>Free and paid online training programs from universities.</p>
+    <a href="https://www.coursera.org/" target="_blank">Visit Coursera</a>
+  </div>
+  <div class="card">
+    <h3>Google Digital Garage</h3>
+    <p>Free digital skills and career courses.</p>
+    <a href="https://learndigital.withgoogle.com/digitalgarage" target="_blank">Visit Google Digital Garage</a>
+  </div>
+  <div class="card">
+    <h3>Udemy Courses</h3>
+    <p>IT, business, and skills training.</p>
+    <a href="https://www.udemy.com/courses/" target="_blank">Visit Udemy</a>
+  </div>
+  <div class="card">
+    <h3>Khan Academy</h3>
+    <p>Free learning on many subjects.</p>
+    <a href="https://www.khanacademy.org/" target="_blank">Visit Khan Academy</a>
+  </div>
+  <div class="card">
+    <h3>Alison</h3>
+    <p>Free online skill training.</p>
+    <a href="https://alison.com/" target="_blank">Visit Alison</a>
+  </div>
+</section>
+
+<!-- DIGITAL WORK -->
+<section id="digital">
+  <div class="card">
+    <h3>Remotasks</h3>
+    <p>Online tasks and AI work.</p>
+    <a href="https://www.remotasks.com" target="_blank">Visit Remotasks</a>
+  </div>
+  <div class="card">
+    <h3>ySense</h3>
+    <p>Earn with surveys & tasks.</p>
+    <a href="https://www.ysense.com" target="_blank">Visit ySense</a>
+  </div>
+</section>
+
+<footer>
+  © 2025 Kakuma Opportunities | Built on Mobile
+</footer>
+
+<script>
+  function showSection(id) {
+    const sections = document.querySelectorAll("section");
+    sections.forEach(sec => sec.classList.remove("active"));
+    document.getElementById(id).classList.add("active");
+  }
+</script>
+
+</body>
+  </html>
